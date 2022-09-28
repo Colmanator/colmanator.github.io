@@ -8,17 +8,23 @@
             .cream {
                 background: rgb(245, 228, 213);
                 color: rgb(10, 10, 10);
+                margin-left: -1em;
+                margin-right: -1em;
                 }
             
             .black {
                 background: rgb(10, 10, 10);
                 color: rgb(245, 228, 213);
+                margin-left: -1em;
+                margin-right: -1em;
                 }
-
+                
             .title {
                 font-family: monaco, monospace;
                 font-size: 2.25em;
-                text-align: center
+                text-align: center;
+                padding-top: 0.8em;
+                padding-bottom: 0.8em;
                 }
             
             .head {
@@ -26,25 +32,41 @@
                 font-size: 1.75em;
                 }
 
-            .body {
+            p {
                 font-family: monaco, monospace;
                 font-size: 1em;
+                }
+
+            a {
+                font-family: monaco, monospace;
+                font-size: 1em;
+                padding-bottom: 0.5em;
                 }
                 
             .flex {
                 display: flex;
                 flex-flow: nowrap;
                 justify-content: space-around;
+
             }
             </style>
 
-        <title>home</title>
+        <title>Home</title>
     </head>
 
     <body>
-        <header>
-            <h1 class="title cream">my thinly veiled vanity project</h1>
+        <header class="black", style = "margin-top: -1.5em;">
+            <h1 class="title black">my thinly veiled vanity project</h1>
         </header>
+
+        <nav class="flex cream", style = "margin-top: -1em;">
+            <a href="https://colmanator.github.io/index.htm">Site Index</a>
+            <a href="https://colmanator.github.io/home.htm">Home</a>
+            <a href="https://colmanator.github.io/projects.htm">Tech Projects</a>
+            <a href="https://colmanator.github.io/hobby.htm">Hobby Stuff</a>
+            <a href="https://colmanator.github.io/contact.htm">Contact/Social</a>
+        </nav>
+
         <main>
             <section class="flex black">
                 <div class="black">
