@@ -1,40 +1,79 @@
 <!DOCTYPE html>
-<style>
-* {
-    background: rgb(245, 228, 213)
-}
-.head {
-    font-family: monaco, monospace;
-    font-size: 1.75em;
-}
-
-.body {
-    font-family: monaco, monospace;
-    font-size: 1em;
-}
-.flex {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: space-around;
-    margin-top: 5em;
-    margin-left: 6em;
-    margin-right: 6em;
-}
-</style>
-
 <html>
     <head>
+        <style>
+            * {
+                background: rgb(245, 228, 213);
+            }
+            .cream {
+                background: rgb(245, 228, 213);
+                color: rgb(10, 10, 10);
+                }
+            
+            .black {
+                background: rgb(10, 10, 10);
+                color: rgb(245, 228, 213);
+                }
+
+            .title {
+                font-family: monaco, monospace;
+                font-size: 2.25em;
+                text-align: center
+                }
+            
+            .head {
+                font-family: monaco, monospace;
+                font-size: 1.75em;
+                }
+
+            .body {
+                font-family: monaco, monospace;
+                font-size: 1em;
+                }
+                
+            .flex {
+                display: flex;
+                flex-flow: nowrap;
+                justify-content: space-around;
+            }
+            </style>
+
         <title>home</title>
     </head>
 
     <body>
-        <div class="flex">
-            <div>
-                <h1 class="head">About me</h1>
-                <p class="body">Hiyo! My name is Ethan!</p>
-                <p class="body">I'm currently preparing to study Computer Science at the University of East Anglia.</p>
-            </div>
-            <img src="mountainedit.jpg", width="650em">
-        </div>
+        <header>
+            <h1 class="title cream">my thinly veiled vanity project</h1>
+        </header>
+        <main>
+            <section class="flex black">
+                <div class="black">
+                    <h1 class="head black",>About me</h1>
+                    <p class="body black">Hey there! My name is Ethan!</p>
+                    <p class="body black">I'm currently studying Computer Science at the University of East Anglia.</p>
+                </div>
+                <img src="mountainedit.jpg", width="650em">
+            </section>
+
+            <section class="flex cream">
+                <img src="mountainedit.jpg", width="650em">
+                <div class="cream">
+                    <h1 class="head cream",>About me</h1>
+                    <p class="body cream">Hey there! My name is Ethan!</p>
+                    <p class="body cream">I'm currently studying Computer Science at the University of East Anglia.</p>
+                </div>
+                
+            </section>
+
+            <section class="flex black">
+                <div class="black">
+                    <h1 class="head black",>About me</h1>
+                    <p class="body black">Hey there! My name is Ethan!</p>
+                    <p class="body black">I'm currently studying Computer Science at the University of East Anglia.</p>
+                </div>
+                <img src="mountainedit.jpg", width="650em">
+            </section>
+        </main>
     </body>
 </html>
+
