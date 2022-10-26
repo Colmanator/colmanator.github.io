@@ -1,6 +1,5 @@
 .monaco-large {
     font-family: monaco, monospace;
-    font-size: 1.75em;
 }
 
 * {
@@ -8,18 +7,21 @@
 }
 
 div {
-padding-top: 5em;
+padding-top: 0em;
 padding-left: 6em;
 }
 
 h1 {
     text-align: left;
-    font-size: 2.25em;
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-size: 1.75em;
 }
 
 a:hover {
