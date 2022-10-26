@@ -1,0 +1,26 @@
+.monaco-large {
+    font-family: monaco, monospace;
+    font-size: 1.75em;
+}
+
+* {
+    background: rgb(245, 228, 213);
+}
+
+div {
+padding-top: 5em;
+padding-left: 6em;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(79, 22, 185);
+}
