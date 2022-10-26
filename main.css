@@ -2,23 +2,35 @@
 * {
     background: rgb(245, 228, 213);
 }
-            
+
+body {
+    margin-left: 0px;
+    margin-right: -8px;
+    margin-top: -1.5em;
+}
+
+           
+.flex {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+}
+
 .cream {
     background: rgb(245, 228, 213);       
     color: rgb(10, 10, 10);        
-    margin-left: -0em;                        
-    margin-right: -0em;
 }
-            
-/* Margins set to 0 as they would break flexboxes. */
 
 .black {
     background: rgb(10, 10, 10);
     color: rgb(245, 228, 213);
-    margin-left: -0em;
-    margin-right: -0em;
+}            
+
+nav {
+    margin-top: -1em;
 }
-                
+          
+
 .title {
     font-family: monaco, monospace;
     font-size: 2.25em;
@@ -43,10 +55,14 @@ a {
     font-family: monaco, monospace;
     font-size: 1em;
     padding-bottom: 0.5em;
+    text-decoration: none;
+    color: rgb(10, 10, 10);    font-family: monaco, monospace;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: burlywood;
 }
                 
-.flex {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: space-around;
-}
