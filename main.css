@@ -1,15 +1,40 @@
 
 * {
     background: rgb(245, 228, 213);
+    font-family: monaco, monospace;
 }
 
 body {
     margin-left: 0px;
-    margin-right: -8px;
+    margin-right: 0px;
     margin-top: -1.5em;
 }
 
-           
+nav {
+    margin-top: -1em;
+}           
+
+p {
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    color: rgb(97, 72, 5);
+}
+
+nav > a {
+    color: rgb(10, 10, 10);
+}
+
+a:hover {
+    color: burlywood;
+}
+
 .flex {
     display: flex;
     flex-flow: nowrap;
@@ -24,15 +49,13 @@ body {
 .black {
     background: rgb(10, 10, 10);
     color: rgb(245, 228, 213);
-}            
+}         
 
-nav {
-    margin-top: -1em;
+.right {
+    text-align: right;
 }
-          
 
 .title {
-    font-family: monaco, monospace;
     font-size: 2.25em;
     text-align: center;
     padding-top: 0.8em;
@@ -40,29 +63,24 @@ nav {
 }
             
 .head {
-    font-family: monaco, monospace;
     font-size: 1.75em;
     padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+              
+.quote {
+    font-style: italic;
+    font-size: 1.4em;
+    padding-left: 2em;
+    padding-top: 1em;
 }
 
-p {
-    font-family: monaco, monospace;
-    font-size: 1em;
-    padding: 1em;
+.quoteRef {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-left: 25em;
 }
 
-a {
-    font-family: monaco, monospace;
-    font-size: 1em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
-    color: rgb(10, 10, 10);    font-family: monaco, monospace;
-    font-size: 1em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
+.smallprint {
+    font-size: 0.8em;
 }
-
-a:hover {
-    color: burlywood;
-}
-                
