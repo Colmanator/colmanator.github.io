@@ -13,7 +13,8 @@ padding-left: 6em;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    font-size: 2.25em;
 }
 
 a {
