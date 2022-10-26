@@ -1,0 +1,52 @@
+
+* {
+    background: rgb(245, 228, 213);
+}
+            
+.cream {
+    background: rgb(245, 228, 213);       
+    color: rgb(10, 10, 10);        
+    margin-left: -0em;                        
+    margin-right: -0em;
+}
+            
+/* Margins set to 0 as they would break flexboxes. */
+
+.black {
+    background: rgb(10, 10, 10);
+    color: rgb(245, 228, 213);
+    margin-left: -0em;
+    margin-right: -0em;
+}
+                
+.title {
+    font-family: monaco, monospace;
+    font-size: 2.25em;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+            
+.head {
+    font-family: monaco, monospace;
+    font-size: 1.75em;
+    padding-left: 0.5em;
+}
+
+p {
+    font-family: monaco, monospace;
+    font-size: 1em;
+    padding: 1em;
+}
+
+a {
+    font-family: monaco, monospace;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+                
+.flex {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+}
